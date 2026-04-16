@@ -1,0 +1,34 @@
+# ============================================
+# 🔥 AVITO BOT PRO v2026 - ЗАВИСИМОСТИ
+# pip install -r requirements.txt
+# ============================================
+
+# Браузер (Playwright — лучше Selenium в 2026)
+playwright==1.52.0
+
+# Async HTTP (для проверки прокси)
+aiohttp==3.11.18
+aiohttp-socks==0.10.1
+
+# Конфигурация
+python-dotenv==1.1.0
+
+# Красивый CLI
+colorama==0.4.6
+rich==14.0.0
+
+# Логирование
+loguru==0.7.3
+
+# Telegram уведомления
+aiogram==3.19.0
+
+# Утилиты
+fake-useragent==2.1.0
+python-dateutil==2.9.0
+
+# Fingerprint / шифрование
+cryptography==44.0.3
+
+# Для кривых Безье (движение мыши)
+numpy==2.2.5

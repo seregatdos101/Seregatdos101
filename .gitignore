@@ -1,0 +1,30 @@
+# Секреты
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Storage (сессии, логи, данные)
+storage/sessions/
+storage/fingerprints/
+storage/logs/
+storage/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright-browsers/
